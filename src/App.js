@@ -4,8 +4,9 @@ import './styles/App.css';
 
 function App() {
 	return (
-		<div>
+		<div className="App">
 			<Die face={4} />
+			<Die face={2} />
 		</div>
 	);
 }
